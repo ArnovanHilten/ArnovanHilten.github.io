@@ -20,19 +20,13 @@ Jekyll also offers powerful support for code snippets:
 
 ```ruby
 def print_hi(name)
-  puts "Hi, #{name}"
+  puts "Hi[2019-04-18-welcome-to-jekyll.md](2019-04-18-welcome-to-jekyll.md), #{name}"
 end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 ```
-Or write python
-```python
-def print_hi(name):
-  print(name)
-  
-print_hi("Python")
-```
-and here is the include:
+
+And here is the htmlfile:
 
 {% include overview.html %}
 

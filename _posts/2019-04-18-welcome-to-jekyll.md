@@ -25,8 +25,14 @@ end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 ```
-
-And here is the htmlfile:
+Or write python
+```python
+def print_hi(name):
+  print(name)
+  
+print_hi("Python")
+```
+and here is the include:
 
 {% include overview.html %}
 
